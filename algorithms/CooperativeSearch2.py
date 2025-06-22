@@ -3,7 +3,7 @@ Created on Sun Feb  2 18:47:40 2020
 
 @author: tauger
 """
-from algorithm.Heuristic import *
+from algorithms.Heuristic import *
 from problem.Problem import * 
 from state.Solution import * 
 # from agent.Agent import *

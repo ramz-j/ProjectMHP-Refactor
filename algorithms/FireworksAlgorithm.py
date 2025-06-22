@@ -6,7 +6,7 @@ Created on Tue Apr 28 12:20:33 2020
 @author: tauger
 """
 
-from algorithm.Heuristic import *
+from algorithms.Heuristic import *
 from problem.Problem import *
 from state.Population import * 
 

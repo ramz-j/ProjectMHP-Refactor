@@ -1,5 +1,5 @@
 # coding=UTF-8
-from algorithm.Heuristic import *
+from algorithms.Heuristic import *
 from problem.Problem import *
 from state.Population import *
 

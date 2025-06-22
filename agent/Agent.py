@@ -1,15 +1,15 @@
 from problem.Problem import *
 from statisticc.BasicStats import BasicStats
 # from state.Solution import * 
-from algorithm.GeneticAlgorithm import *
-from algorithm.SimulatingAnnealing import *
-from algorithm.DifferentialEvolution import *
-from algorithm.HarmonySearch import *
-from algorithm.CrossEntropy import *
-from algorithm.CooperativeCrossEntropy import *
-from algorithm.FireworksAlgorithm import *
-from algorithm.CooperativeSearch import *
-from algorithm.RandomWalk import *
+from algorithms.GeneticAlgorithm import *
+from algorithms.SimulatingAnnealing import *
+from algorithms.DifferentialEvolution import *
+from algorithms.HarmonySearch import *
+from algorithms.CrossEntropy import *
+from algorithms.CooperativeCrossEntropy import *
+from algorithms.FireworksAlgorithm import *
+from algorithms.CooperativeSearch import *
+from algorithms.RandomWalk import *
 
 from datetime import datetime, date, time, timedelta
 import calendar
