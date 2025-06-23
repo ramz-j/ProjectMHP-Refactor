@@ -91,7 +91,7 @@ class Heuristic(object):
 		@author
 		""" 
 		
-		with open('./experiments/config/'+metaH+'/'+nameFile+'.json') as file:
+		with open('./experiments/algorithms_config/'+metaH.lower()+'/'+nameFile+'.json') as file:
 			data = json.load(file)
 		 
 		return  data 	 
