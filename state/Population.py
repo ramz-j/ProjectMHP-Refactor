@@ -1,4 +1,4 @@
-from state.Solution import *
+from state.solution import *
 
 class Population(object):  
 	

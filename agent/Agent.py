@@ -1,15 +1,15 @@
-from problem.Problem import *
-from statisticc.BasicStats import BasicStats
-# from state.Solution import * 
-from algorithms.GeneticAlgorithm import *
-from algorithms.SimulatingAnnealing import *
-from algorithms.DifferentialEvolution import *
-from algorithms.HarmonySearch import *
-from algorithms.CrossEntropy import *
-from algorithms.CooperativeCrossEntropy import *
-from algorithms.FireworksAlgorithm import *
-from algorithms.CooperativeSearch import *
-from algorithms.RandomWalk import *
+from problems.problem import *
+from stats.basic_stats import BasicStats
+# from state.solution import * 
+from algorithms.genetic_algorithm import *
+from algorithms.simulated_annealing import *
+from algorithms.differential_evolution import *
+from algorithms.harmony_search import *
+from algorithms.cross_entropy import *
+from algorithms.cooperative_cross_entropy import *
+from algorithms.fireworks_algorithm import *
+from algorithms.cooperative_search import *
+from algorithms.random_walk import *
 
 from datetime import datetime, date, time, timedelta
 import calendar
@@ -85,7 +85,7 @@ class Agent(object):
 				self.stats.add(GA.status.stateFinal)   
 				
 			if (self.metaheuristic == "SA") :
-				SA = SimulatingAnnealing(self.problem, self.paraMetaheuristic) 
+				SA = SimulatedAnnealing(self.problem, self.paraMetaheuristic) 
 				self.stats.add(SA.status.stateFinal) 
 				
 			if (self.metaheuristic == "DE") :
@@ -141,7 +141,7 @@ class Agent(object):
             # self.stats.add(GA.status.stateFinal)   
 				
 		if (self.metaheuristic == "SA") :
-			self.objMetaheuristic = SimulatingAnnealing(self.problem, self.paraMetaheuristic, False) 
+			self.objMetaheuristic = SimulatedAnnealing(self.problem, self.paraMetaheuristic, False) 
 			# self.stats.add(SA.status.stateFinal) 
             
 		if (self.metaheuristic == "DE") :

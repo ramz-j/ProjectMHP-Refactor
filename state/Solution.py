@@ -50,7 +50,7 @@ class Solution(object):
         
 	def evaluate(self, problem):
 		"""  
-		@param state.Solution s : 
+		@param state.solution s : 
 		@return  :
 		@author
 		"""
@@ -60,7 +60,7 @@ class Solution(object):
 			
 	def initRandomizePer(self ):
 		"""  
-		@param state.Solution s : 
+		@param state.solution s : 
 		@return  :
 		@author
 		"""
@@ -82,7 +82,7 @@ class Solution(object):
 		
 	def initRandomizePerArray(self, perm ):
 		"""  
-		@param state.Solution s : 
+		@param state.solution s : 
 		@return  :
 		@author
 		"""
@@ -106,7 +106,7 @@ class Solution(object):
 			
 	def initRandomizeRea(self):
 		"""  
-		@param state.Solution s : 
+		@param state.solution s : 
 		@return  :
 		@author
 		"""
@@ -120,7 +120,7 @@ class Solution(object):
 			
 	def initRandomizeMix(self):
 		"""  
-		@param state.Solution s : 
+		@param state.solution s : 
 		@return  :
 		@author
 		"""
@@ -137,7 +137,7 @@ class Solution(object):
     
 	def initRandomizeBin(self ):
 		"""  
-		@param state.Solution s : 
+		@param state.solution s : 
 		@return  :
 		@author
 		"""
@@ -167,7 +167,7 @@ class Solution(object):
 		    
 	def setFitness(self, fit):
 		"""  
-		@param state.Solution s : 
+		@param state.solution s : 
 		@return  :
 		@author
 		"""

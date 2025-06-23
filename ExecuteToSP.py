@@ -1,7 +1,7 @@
-from agent.Agent import * 
-from examples.ToolSwitchingProblem import *  
+from agent.agent import * 
+from problems.tool_switching_problem import *  
 
-from state.Solution import * 
+from state.solution import * 
 
 import numpy as np 
      

@@ -1,7 +1,7 @@
 # coding=UTF-8
-from problem.Problem import *
-from problem.Internal import *
-# from state.Operators import *
+from problems.problem import *
+from utils.internal import *
+# from state.operators import *
 
 import json
 
