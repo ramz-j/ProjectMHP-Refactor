@@ -54,7 +54,7 @@ class ToolSwitchingProblem (Problem):
 			# 	self.nMagazine = int(r[d] ) 
  
 		self.nMagazine = namFile[1]
-		with open('./experiments/instances/ToSP/'+namFile[0], 'r') as fileobj:
+		with open('./experiments/problems_instances/tosp/'+namFile[0], 'r') as fileobj:
 		    content = fileobj.read()
 		    lines = content.split('\n') 
        

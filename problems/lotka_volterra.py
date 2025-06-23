@@ -48,7 +48,7 @@ class LotkaVolterra(Problem):
 		@return  :
 		@author
 		"""
-		with open('./experiments/instances/LV/'+namFile) as file:
+		with open('./experiments/problems_instances/lv/'+namFile) as file:
 			data = json.load(file)
 		
 		self.pr  = data['pr']

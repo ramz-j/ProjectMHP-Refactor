@@ -48,7 +48,7 @@ class Ackley(Problem):
 		@return  :
 		@author
 		"""
-		with open('./experiments/instances/Ackley/'+namFile) as file:
+		with open('./experiments/problems_instances/ackley/'+namFile) as file:
 			data = json.load(file)
 		
 		self.A  = data['A']

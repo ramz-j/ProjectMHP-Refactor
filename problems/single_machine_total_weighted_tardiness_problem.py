@@ -37,7 +37,7 @@ class SingleMachineTotalWeightedTardinessProblem (Problem):
 		instancer = 1  
 		self.nVar = int(namFile[1])
 		self.jobsTardiness = []
-		with open('./experiments/instances/SMTWTP/'+namFile[0], 'r') as fileobj:
+		with open('./experiments/problems_instances/smtwtp/'+namFile[0], 'r') as fileobj:
 		    content = fileobj.read()
 		    lines = content.split('\n')  
  

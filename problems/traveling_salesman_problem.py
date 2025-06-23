@@ -36,7 +36,7 @@ class TravelingSalesmanProblem (Problem):
 		"""
  
    
-		with open('./experiments/instances/TSP/'+namFile, 'r') as fileobj:
+		with open('./experiments/problems_instances/tsp/'+namFile, 'r') as fileobj:
 		    content = fileobj.read()
 		    lines = content.split('\n') 
             

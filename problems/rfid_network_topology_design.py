@@ -58,7 +58,7 @@ class RFIDNetworkTopologyDesign (Problem):
 		self.lowerlimits = []        
 		self.typeVarMix = []
         
-		with open('./experiments/instances/RFIDNTD/'+namFile, 'r') as fileobj:
+		with open('./experiments/problems_instances/rfidntd/'+namFile, 'r') as fileobj:
 		    content = fileobj.read()
 		    lines = content.split('\n') 
  
