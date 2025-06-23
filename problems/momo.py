@@ -71,7 +71,7 @@ class MoMO(Problem):
 		@return  :
 		@author
 		"""
-		with open('./DATA/instances/MoMO/'+namFile) as file:
+		with open('./experiments/instances/MoMO/'+namFile) as file:
 			data = json.load(file)
 		
 		self.pr  = data['pr']

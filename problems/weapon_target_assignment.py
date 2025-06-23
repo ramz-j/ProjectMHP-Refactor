@@ -47,7 +47,7 @@ class WeaponTargetAssignment(Problem):
 		@return  :
 		@author
 		"""
-		with open('./DATA/instances/WTA/'+namFile) as fileobj:
+		with open('./experiments/instances/WTA/'+namFile) as fileobj:
 		    content = fileobj.read()
 		    lines = content.split('\n') 
             

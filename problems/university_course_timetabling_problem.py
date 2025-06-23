@@ -54,7 +54,7 @@ class UniversityCourseTimetablingProblem (Problem):
 		self.periods = 0    
 		self.courses = 0   
         
-		with open('./DATA/instances/UCTP/'+namFile, 'r') as fileobj:
+		with open('./experiments/instances/UCTP/'+namFile, 'r') as fileobj:
 		    content = fileobj.read()
 		    lines = content.split('\n')   
         

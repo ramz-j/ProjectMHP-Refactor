@@ -37,7 +37,7 @@ class RehearsalSchedulingProblem (Problem):
 		self.nPlayers =  0
 		self.nVar =  0
         
-		with open('./DATA/instances/RSP/'+namFile, 'r') as fileobj:
+		with open('./experiments/instances/RSP/'+namFile, 'r') as fileobj:
 		    content = fileobj.read()
 		    lines = content.split('\n') 
  

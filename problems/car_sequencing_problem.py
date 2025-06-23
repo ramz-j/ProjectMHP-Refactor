@@ -35,7 +35,7 @@ class CarSequencingProblem (Problem):
         http://www.csplib.org/Problems/prob001/
 		"""
         
-		with open('./DATA/instances/CSP/'+namFile, 'r') as fileobj:
+		with open('./experiments/instances/CSP/'+namFile, 'r') as fileobj:
 		    content = fileobj.read()
 		    lines = content.split('\n')   
         
