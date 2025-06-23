@@ -57,7 +57,7 @@ class Agent(object):
 		"""
 		ahora = datetime.now()                     
 		
-		auxFile = "./output/"+ problem.nameShort+" "+ahora.day+"_" +(ahora.month)+"_"+ahora.year+" "+ahora.hour+"_"+ahora.minute+".txt"
+		auxFile = "./results/"+ problem.nameShort+" "+ahora.day+"_" +(ahora.month)+"_"+ahora.year+" "+ahora.hour+"_"+ahora.minute+".txt"
 		f = open (auxFile,'w')
 		f.write(self.stats.toString())
 		f.close()
